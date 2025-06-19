@@ -1,0 +1,36 @@
+EXPLICAÇÃO COMPLETA DO CÓDIGO - JOGO DE ADIVINHAÇÃO
+
+1. IMPORTAÇÃO DE MÓDULOS:
+- `import random`: permite gerar números aleatórios.
+- `import os`: usado para limpar a tela com `os.system('clear')`.
+
+2. FUNÇÃO PRINCIPAL: `jogar_adivinhacao()`
+- Mostra a mensagem inicial do jogo.
+- Pergunta ao usuário se ele quer o modo normal (1) ou personalizado (2).
+- Chama a função correspondente: `normal()` ou `personalizado()`.
+
+3. FUNÇÃO `normal()`
+- Gera um número aleatório entre 1 e 10.
+- Define que o jogador tem 5 tentativas.
+- Enquanto o jogador não acertar E ainda tiver tentativas:
+    - Ele digita um palpite.
+    - O número de tentativas aumenta.
+    - Se acertar, mostra mensagem de vitória.
+    - Se errar, avisa se o número é maior ou menor.
+- Se o jogador errar todas as tentativas, mostra o número correto.
+
+4. FUNÇÃO `personalizado()`
+- O usuário escolhe o valor mínimo e máximo.
+- Gera um número aleatório dentro desse intervalo.
+- O resto da lógica é igual ao modo normal.
+
+5. LOOP PRINCIPAL
+- O jogo roda dentro de um `while True`.
+- Depois de cada jogo, pergunta se o jogador quer jogar novamente.
+- Se o jogador digitar algo diferente de "s", o jogo termina.
+
+6. OUTROS DETALHES:
+- `os.system('clear')` limpa a tela no início de cada jogo (em Linux/macOS).
+- O código usa boas práticas com funções bem separadas e lógicas claras.
+
+FIM DA EXPLICAÇÃO.
