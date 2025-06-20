@@ -39,7 +39,7 @@ Depois que o jogador joga, ele é perguntado se deseja tentar novamente. Se digi
 1. Instale o Python (versão 3.6 ou superior).
 2. Clone este repositório:
    ```bash
-   git clone git clone https://github.com/StudioHash404/Python.git
+   git clone https://github.com/StudioHash404/Python.git
    ```
 3. Acesse a pasta e execute o arquivo:
    ```bash
